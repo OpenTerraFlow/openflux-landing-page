@@ -1,16 +1,15 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+import Page from "@/components/core/Page";
+import { Metadata } from "next";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"]
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"]
-});
+export const metadata: Metadata = {
+  title: "OpenFlux",
+  description: "This is the app landing page",
+};
 
 export default function Home() {
-  return <div> Hello World ! </div>;
+  return (
+    <Page>
+      <div className="flex justify-center items-center">Hello World !</div>
+    </Page>
+  );
 }
