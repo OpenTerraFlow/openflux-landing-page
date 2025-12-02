@@ -13,7 +13,7 @@ const AppLayout = (props: AppLayoutProps) => {
     <div>
       <Head>{title ? title : "OpenFlux"}</Head>
       <NavBar />
-      <main className="flex min-h-screen flex-col ">{children}</main>;
+      <main className="flex min-h-screen w-screen flex-col ">{children}</main>
     </div>
   );
 };
