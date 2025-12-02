@@ -37,6 +37,17 @@ export default function Home() {
               ownership and global standards.
             </p>
           </div>
+          <div className="text-center mt-12 text-white space-x-4 justify-center items-center flex">
+            <p>For more detailed information, read our </p>
+            <Link
+              href="https://drive.google.com/file/d/1OMGglm8xhVu5X9bv1lx-uQjOKZaBei3N/preview"
+              target="_blank"
+            >
+              <Button className="bg-white text-black hover:bg-gray-200 font-medium px-6 font-bold rounded-lg">
+                White Paper
+              </Button>
+            </Link>
+          </div>
         </section>
         <section
           className="flex flex-col md:flex-row md:justify-around justify-center items-center pt-16 space-y-2 px-6 md:px-10"
