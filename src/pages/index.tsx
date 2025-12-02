@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <Page>
       <div className="space-y-10">
-        <section className="py-20 bg-slate-800 space-y-8">
+        <section className="py-20 bg-slate-800 space-y-8 px-4">
           <div className="flex flex-col items-center text-center pt-10">
             <Title
               level={1}
@@ -37,7 +37,7 @@ export default function Home() {
               ownership and global standards.
             </p>
           </div>
-          <div className="text-center mt-12 text-white space-x-4 justify-center items-center flex">
+          <div className="flex justify-center items-center text-sm md:text-base text-center mt-12 text-white space-x-4">
             <p>For more detailed information, read our </p>
             <Link
               href="https://drive.google.com/file/d/1OMGglm8xhVu5X9bv1lx-uQjOKZaBei3N/preview"
