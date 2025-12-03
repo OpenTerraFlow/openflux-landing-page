@@ -132,32 +132,24 @@ export default function Home() {
             <FeaturesSection />
           </div>
         </section>
-        <section className="bg-slate-800 space-y-8 px-6 pb-6">
-          <div className="flex flex-col items-center text-center pt-10">
-            <Title
-              level={1}
-              className="text-3xl md:text-4xl text-white lg:text-5xl font-bold tracking-tight text-gray-900 max-w-5xl leading-tight"
-            >
-              Ready to transform your data integration? today.
-            </Title>
-            <p className="md:px-4 text-white text-medium md:text-xl max-w-3xl mt-6 leading-relaxed">
-              Join the OpenFlux beta and be among the first to experience the
-              future of sustainable data operations.
-            </p>
-          </div>
-          <div className="flex justify-center items-center ">
-            <Link
+        <footer className="bg-slate-800 text-white py-12 px-6">
+          <div className="max-w-7xl mx-auto flex flex-col items-center space-y-6">
+            <h1 className="text-3xl font-bold">Build with OpenFlux</h1>
+            <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSe92RfjgkjX2MuvdiSEXpPYrwgCAEF5JXuXQgfCbqBAKKExLQ/viewform?usp=preview"
               target="_blank"
-              id="waitlist"
               rel="noopener noreferrer"
+              id="waitlist"
             >
-              <Button className="bg-white text-black hover:bg-gray-200 font-medium px-6 rounded-lg">
+              <button className="bg-white text-black hover:bg-gray-200 font-medium px-6 py-3 rounded-lg">
                 Be an early user
-              </Button>
-            </Link>
+              </button>
+            </a>
+            <p className="text-sm text-gray-400 mt-6">
+              &copy; {new Date().getFullYear()} OpenFlux. All rights reserved.
+            </p>
           </div>
-        </section>
+        </footer>
       </div>
     </Page>
   );

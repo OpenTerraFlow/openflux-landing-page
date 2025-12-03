@@ -52,7 +52,7 @@ export default function IndustryCards() {
       {industries.map((industry, i) => (
         <Card
           key={i}
-          className={`bg-gradient-to-br ${industry.gradient} ${industry.border} h-48 gap-2 space-y-0 hover:shadow-lg transition-shadow cursor-pointer`}
+          className={`bg-gradient-to-br ${industry.gradient} ${industry.border} h-64 gap-2 space-y-0 hover:shadow-lg transition-shadow cursor-pointer`}
         >
           <CardHeader>
             <div className="text-4xl ">{industry.icon}</div>
