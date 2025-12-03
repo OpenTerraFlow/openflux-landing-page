@@ -135,16 +135,16 @@ export default function Home() {
         <footer className="bg-slate-800 text-white py-12 px-6">
           <div className="max-w-7xl mx-auto flex flex-col items-center space-y-6">
             <h1 className="text-3xl font-bold">Build with OpenFlux</h1>
-            <a
+            <Link
               href="https://docs.google.com/forms/d/e/1FAIpQLSe92RfjgkjX2MuvdiSEXpPYrwgCAEF5JXuXQgfCbqBAKKExLQ/viewform?usp=preview"
               target="_blank"
               rel="noopener noreferrer"
               id="waitlist"
             >
-              <button className="bg-white text-black hover:bg-gray-200 font-medium px-6 py-3 rounded-lg">
+              <Button className="bg-white text-black hover:bg-gray-200 font-medium px-6 font-bold rounded-lg">
                 Be an early user
-              </button>
-            </a>
+              </Button>
+            </Link>
             <p className="text-sm text-gray-400 mt-6">
               &copy; {new Date().getFullYear()} OpenFlux. All rights reserved.
             </p>
